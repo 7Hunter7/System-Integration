@@ -1,5 +1,14 @@
 # Адаптивный сайт "Системная интеграция"
 
+- Макет:
+  https://www.figma.com/design/tFywYTud9iBxrWSYmNdoRS/System-Integration?node-id=0-1&p=f&t=osO1HbCRpeQEfOxc-0
+
+* Github - код проекта:
+  https://github.com/7Hunter7/System-Integration.git
+
+- Презентация с использованием сервиса Vercel:
+  https://system-integration.vercel.app/
+
 ## Адаптивная верстка
 
 - HTML-страница `"Системная интеграция"` создана на основе макета Figma.
