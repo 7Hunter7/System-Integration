@@ -1,0 +1,22 @@
+.container {
+  max-width: 1630px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+.wrapper{
+  overflow-x: hidden;
+}
+@media (max-width: 1480px) {
+  .container {
+    max-width: 1205px;
+    
+  }
+
+}
+@media (max-width: 1160px) {
+  .container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+
+}/*# sourceMappingURL=settings.css.map */

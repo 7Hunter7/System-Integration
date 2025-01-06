@@ -1,0 +1,310 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F7F7F7;
+}
+
+.section, .section2, .section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 0px;
+}
+.section2 {
+    width: 100%;
+    background: #F7F1F1;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.section3 {
+    width: 100%;
+    background: #E6E7E8;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.ThirdBlock{
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.HeaderText2{
+    text-align: center;
+    font-size: 40px;
+    color: #BC2539;
+    margin-bottom: 10px;
+}
+
+.HeaderText3{
+    text-align: center;
+    font-size: 40px;
+    color: #BC2539;
+    margin-bottom: 10px;
+}
+.ParagraphText1{
+    font-size: 30px;
+    text-align: center;
+    line-height: 42px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.ParagraphText4{
+    font-size: 30px;
+    text-align: start;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.imgClircle{
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+    width: 17px;
+}
+.images{
+    display: flex;
+    gap: 50px;
+}
+.BothDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.DocumentDiv{
+    display: flex;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.ParagraphText2{
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.ButtonText3{
+    margin-top: 50px;
+}
+.ButText3{
+    text-decoration: none;
+    color: black;
+    border:1px solid #BC2539;
+    padding-top: 11px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;;
+    padding-bottom: 11px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.ButText3:hover{
+    background-color: #BC2539;
+    color: #FFFFFF;
+}
+
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    align-items: start;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.stat-item {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.number {
+    display: block;
+    font-size: 100px;
+    font-weight: bold;
+    color: #BC2539;
+    margin-bottom: 5px;
+    position: relative;
+    top: 20px;
+    line-height: 1;
+}
+
+.label {
+    font-size: 24px;
+    font-weight: 700;
+    width: 280px;
+    text-align: center;
+    line-height: 1.4;
+    white-space: normal;
+}
+
+.statistics2 {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 20px
+}
+.statistics3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.statistics4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.ButtonDiv3{
+    margin-top: 30px;
+}
+.CircleText{
+    line-height: 26px;
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+    width: 440px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1024px){
+    .BothDiv{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .HeaderText2{
+        font-size: 29px;
+    }
+    .HeaderText3{
+        font-size: 29px;
+        width: 230px;
+        display: flex;
+        justify-content: center;
+    }
+    .HeaderDiv3{
+        display: flex;
+        justify-content: center;
+    }
+    .ParagraphText1{
+        font-size: 22px;
+    }
+    .CircleText{
+        width: 100%;
+        font-size: 18px;
+    }
+    .ParagraphText4{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .statistics2{
+        padding-top: 15px;
+    }
+    .statistics3{
+        padding-top: 50px;
+    }
+    .ThirdBlock{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .BothDiv{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .DocumentDiv{
+        margin-top: 40px;
+    }
+    .images{
+        margin-top: 0px;
+    }
+    .BigImages{
+        width: 100%;
+    }
+    .number{
+        font-size: 80px;
+    }
+    .imgClircle{
+        margin-top: 0px;
+        width: 8px;
+        bottom: 13px;
+        right: 5px;
+    }
+    .label{
+        font-size: 25px;
+    }
+
+    .images{
+        gap: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ButText3{
+        font-size: 16px;
+        text-align: center;
+        width: 197px;
+    }
+    .statistics{
+        gap: 0px;
+        padding-top: 0px;
+    }
+    .ButtonDiv3{
+        margin-top: 0px;
+    }
+    .section2 {
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 1485px) {
+    .ThirdBlock{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+@media screen and (max-width: 492px) {
+    .ImageDoc{
+        width: 155px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .BothDiv{
+        display: block;
+    }
+    .CircleText{
+        width: 100%;
+    }
+}
